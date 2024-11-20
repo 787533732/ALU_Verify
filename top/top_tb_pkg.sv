@@ -1,0 +1,16 @@
+`include "uvm_macros.svh"
+import uvm_pkg::*;
+`include "../../item/alu_datatype_define.sv"
+`include "../../agent/my_if.sv"
+`include "../../item/my_transaction.sv"
+`include "../../agent/my_sequencer.sv"
+`include "../../agent/my_driver.sv"
+`include "../../agent/my_monitor.sv"
+`include "../../agent/my_agent.sv"
+`include "../../env/my_model.sv"
+`include "../../env/my_scoreboard.sv"
+`include "../../env/my_env.sv"
+`include "../../test/base_test.sv"
+`include "../../test/base_sequence.sv"
+
+`include "../../test/random_test.sv"
